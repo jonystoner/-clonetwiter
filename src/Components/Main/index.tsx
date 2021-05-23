@@ -14,7 +14,7 @@ import {
   EmailIcon,
 } from './Styles';
 
-function Main() {
+const Main: React.FC = () => {
   return(
       <Container>
         <Header>
@@ -24,7 +24,7 @@ function Main() {
           </button>
             <Profileinfo>
                 <strong> Jonathan </strong>
-                <spam> 9 Mensagens </spam>
+                <span> 19 Tweets </span>
             </Profileinfo>
         </Header>
 

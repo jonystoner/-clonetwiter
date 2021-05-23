@@ -1,7 +1,5 @@
 import React from 'react';
 
-        
-        
 import { 
   Container,
   Banner,
@@ -13,7 +11,7 @@ import {
   Followage
 }from './Styles';
 
-function ProfilePage()  {
+const ProfilePage: React.FC = () => {
   return(
   <Container>
     <Banner>
@@ -22,7 +20,7 @@ function ProfilePage()  {
       </Avatar>
     </Banner>
     <ProfileData>
-        <EditButton outlined> Editar Perfil </EditButton>
+        <EditButton > Editar Perfil </EditButton>
         <h1> Jonathan stoner fullstack </h1>
         <h2> @jonathan_stoner_fullstack </h2>
         <p>
