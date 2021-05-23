@@ -45,47 +45,6 @@ export const  ProfileData = styled.div`
   display: flex;
   flex-direction: column;
   position: relative;
-
-  > h1 {
-    font-weight: bold;
-    font-size: 19px;
-  }
-    > h2{
-    font-weight: normal;
-    font-size: 15px;
-    
-    color: var(--twitter);
-  }
-    > p{
-    font-size: 15px;
-    margin-top: 11px;
-
-    }
-    > a{
-     text-decoration: none;
-    color: var(--twitter );
-  }  
-    > ul {
-    list-style:none ;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-    > li {
-    display:flex;
-    align-items:center;
-
-    font-size: 15px;
-    color: var(--gary);
-
-
-    > svg {
-      fill: var(--gray);
-      margin-right: 5px;
-    }  
-
-    }
-
-    }
 `;
 
 export const EditButton = styled.div``;
@@ -106,17 +65,4 @@ export const  CokeIcon = styled(LocationOn)`
 ${iconsCSS}
 `;
 
-export const  Followage = styled.div`
-  display:flex;
-
-  > span{
-    font-size: 15px;
-    color: var(--gray);
-
-    & + span {
-      margin-left: 20px;
-
-    }
-  }
-   
-`;
+export const  Followage = styled.div``;

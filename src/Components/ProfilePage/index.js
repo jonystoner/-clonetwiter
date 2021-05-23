@@ -26,7 +26,7 @@ function ProfilePage()  {
         <h1> Jonathan stoner fullstack </h1>
         <h2> @jonathan_stoner_fullstack </h2>
         <p>
-           fullstack at <a href="https://github.com/jonystoner"> jonystoner github  </a>
+           fullstack at <a href="https://github.com/jonystoner/jonystoner.github.io"> </a>
         </p>
 
         <ul>
@@ -43,7 +43,7 @@ function ProfilePage()  {
               Seguindo <strong>1200</strong>
             </span>
             <span>
-              <strong> 1200</strong>  seguidores       
+              <strong> ,1200</strong>  seguidores       
             </span>
           </Followage>
 
