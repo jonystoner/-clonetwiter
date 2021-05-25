@@ -2,6 +2,8 @@ import React from 'react';
 
 import Tweet from '../Tweet'
 
+import CloudWord from '../CloudWord'
+
 import { Container, Tab , Tweets } from './Styles';
 
 const Feed: React.FC = () => {
@@ -12,6 +14,7 @@ const Feed: React.FC = () => {
      <Tweets> 
         <Tweet/>
      </Tweets>
+     <CloudWord/>
      </Container>
 
   );

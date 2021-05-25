@@ -16,7 +16,7 @@ const resizeStyle = {
   background: "#f0f0f0"
 };
 
-function App() {
+function CloudWord() {
   return (
     <div>
       <p>Resize the container!</p>
@@ -36,4 +36,7 @@ function App() {
 }
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(<CloudWord />, rootElement);
+
+
+export default CloudWord;

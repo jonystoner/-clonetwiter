@@ -16,8 +16,9 @@ function Layout() {
              {/* </Sidebar>*/} 
              {/* </Menubar>  */} 
              <Main />
-      </Wrapper>  
+         </Wrapper>  
     </Container>
+    
 
   )
 
