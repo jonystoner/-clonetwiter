@@ -3,15 +3,13 @@ import styled, {css} from 'styled-components';
 import { ArrowLeft, Home , Email ,Notifications, Search } from '../../Styles/icons';
 
 export const Container = styled.div`
-  
-  
-  
-  display: flex;
-  flex-direction: column;
-  
-  width: min(601px, 100%);
+    
+    display: flex;
+    flex-direction: column;
+    
+    width: min(601px, 100%);
 
-  background: outline;
+    background: outline;
 
   @media(min-width: 500px ){
     border-left:1px solid var(--outline);
